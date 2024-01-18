@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cream-bg, #F2EAE2);
+}
+
+h2 {
+    font-family: "Fraunces", sans;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card__image {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 32px;
+}
+
+.card__content {
+    margin-top: 32px;
+}
+
+.card__label {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-bottom: 20px;
+}
+
+.card__title {
+    color: var(--Gunmetal, #1C232B);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    w236
+}
+
+.card-description {
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-weight: 500;
+    line-height: 23px;
+    width: 237px;
+    margin-bottom: 29px;
+}
+
+.card__prices {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 45px;
+}
+
+.card__big-price {
+    color: #3D8168;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.card__mini-pricec {
+    color: #6C7289;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration: line-through;
+
+}
+
+.card__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D8168;
+    border-radius: 8px;
+    width: 236px;
+    height: 48px;
+    color: #fff;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.card__btn:hover {
+    background-color: #1A4032;
+}
